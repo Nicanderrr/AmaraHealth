@@ -1,0 +1,68 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Explore</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <div class="page">
+      <div class="phone">
+        <div class="status">
+          <a class="back-btn" href="home.html"><span>←</span>Back</a>
+          <span class="status-title">Explore</span>
+          <div class="status-dots"><span></span><span></span><span></span></div>
+        </div>
+        <div class="content">
+          <div class="card">
+            <div class="text-muted" style="font-size:12px;">Explore Ride Conditions</div>
+            <div class="pills" style="margin-top:10px;">
+              <span class="pill active" style="font-size:10px; padding:4px 10px;">Surge</span>
+              <span class="pill" style="font-size:10px; padding:4px 10px;">Traffic</span>
+              <span class="pill" style="font-size:10px; padding:4px 10px;">Events</span>
+            </div>
+          </div>
+          <div class="card" style="margin-top:16px;">
+            <div class="text-muted" style="font-size:12px;">Live map</div>
+            <div class="map" style="height:180px; margin-top:10px;">
+              <svg viewBox="0 0 320 200" aria-hidden="true">
+                <defs>
+                  <linearGradient id="water2" x1="0" y1="0" x2="1" y2="1">
+                    <stop offset="0" stop-color="#d9f0ff" />
+                    <stop offset="1" stop-color="#c3e6ff" />
+                  </linearGradient>
+                </defs>
+                <rect width="320" height="200" fill="#f7eef4" />
+                <path d="M220 20c30 15 55 45 75 70v110H200c-12-30-5-70 20-95 15-15 20-40 0-55Z" fill="url(#water2)" />
+                <path d="M18 34h110l45 35h70l50-20" stroke="#d4c1cf" stroke-width="6" fill="none" />
+                <path d="M10 120h140l30-20h95l30 25" stroke="#e2cfd9" stroke-width="5" fill="none" />
+                <circle cx="96" cy="120" r="10" fill="#ff4f9a" />
+              </svg>
+              <div class="badge">Accra</div>
+              <div class="expand">⤢</div>
+            </div>
+            <div style="margin-top:10px; display:flex; justify-content:space-between; font-size:12px; color:rgba(255,255,255,0.6);">
+              <span>Accra</span><span>Updated 2m ago</span>
+            </div>
+          </div>
+          <div style="margin-top:16px;">
+            <a class="btn" href="ride-match.html">Compare Rides</a>
+          </div>
+        </div>
+        <div class="footer">
+          <div class="nav">
+            <a class="nav-item" href="home.html"><span class="icon">🏠</span>HOME</a>
+            <a class="nav-item" href="history.html"><span class="icon">⏱</span>HISTORY</a>
+            <a class="nav-center" href="explore.html"><span>🗺</span></a>
+            <a class="nav-item" href="insights-main.html"><span class="icon">📈</span>INSIGHTS</a>
+            <a class="nav-item" href="profile.html"><span class="icon">👤</span>PROFILE</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

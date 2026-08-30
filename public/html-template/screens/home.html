@@ -1,0 +1,100 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <div class="page">
+      <div class="phone">
+        <div class="status">
+          <a class="back-btn" href="login.html"><span>←</span>Back</a>
+          <span class="status-title">RideSync+</span>
+          <div class="status-dots"><span></span><span></span><span></span></div>
+        </div>
+        <div class="content">
+          <h2>Where to, <span class="text-pink">Alexa</span>?</h2>
+          <p class="subtitle">Compare rides from Uber, Bolt, Yango</p>
+
+          <div class="space-y-3" style="margin-top:16px;">
+            <div class="input" style="display:flex; gap:10px; align-items:center;">📍 123 Innovation Drive, Tech City</div>
+            <div class="input" style="display:flex; gap:10px; align-items:center;">🧭 Where are you heading?</div>
+          </div>
+
+          <div class="pills" style="margin-top:14px;">
+            <a class="pill active" href="ride-match.html">Car</a>
+            <a class="pill" href="ride-match.html">Bike</a>
+            <a class="pill" href="ride-match.html">Shared</a>
+            <a class="pill" href="ride-match.html">Premium</a>
+          </div>
+
+          <div class="card" style="margin-top:16px;">
+            <div class="text-muted" style="font-size:12px;">Live map</div>
+            <div class="map" style="height:140px; margin-top:10px;">
+              <svg viewBox="0 0 320 200" aria-hidden="true">
+                <defs>
+                  <linearGradient id="water" x1="0" y1="0" x2="1" y2="1">
+                    <stop offset="0" stop-color="#d9f0ff" />
+                    <stop offset="1" stop-color="#c3e6ff" />
+                  </linearGradient>
+                </defs>
+                <rect width="320" height="200" fill="#f7eef4" />
+                <path d="M220 20c30 15 55 45 75 70v110H200c-12-30-5-70 20-95 15-15 20-40 0-55Z" fill="url(#water)" />
+                <path d="M18 34h110l45 35h70l50-20" stroke="#d4c1cf" stroke-width="6" fill="none" />
+                <path d="M10 120h140l30-20h95l30 25" stroke="#e2cfd9" stroke-width="5" fill="none" />
+                <path d="M55 70h60l18 18h50l30-10" stroke="#dbc7d4" stroke-width="4" fill="none" />
+                <path d="M30 160h80l40-15h60" stroke="#e7d6df" stroke-width="3" fill="none" />
+                <circle cx="96" cy="120" r="10" fill="#ff4f9a" />
+                <circle cx="210" cy="70" r="8" fill="#ff65ad" />
+                <circle cx="250" cy="135" r="7" fill="#ff7db7" />
+                <rect x="22" y="18" width="60" height="18" rx="9" fill="#3a1426" opacity="0.85" />
+                <text x="30" y="31" fill="#f9d6e6" font-size="9" font-family="Poppins, sans-serif">Accra</text>
+              </svg>
+              <div class="badge">High Demand Zone</div>
+              <div class="expand">⤢</div>
+            </div>
+          </div>
+
+          <div class="card" style="margin-top:16px;">
+            <div class="text-muted" style="font-size:12px;">Saved Location</div>
+            <div class="space-y-2" style="margin-top:10px;">
+              <a class="list-item" href="edit-location.html"><span>Computer Science Depart.</span><span class="text-pink">3.2 miles</span></a>
+              <a class="list-item" href="edit-location.html"><span>Home (Kwapong Hall)</span><span class="text-pink">5.2 miles</span></a>
+              <a class="list-item" href="edit-location.html"><span>Poki Restaurant</span><span class="text-pink">9.2 miles</span></a>
+            </div>
+          </div>
+
+          <div style="margin-top:16px;">
+            <a class="btn" href="ride-match.html">Compare Rides →</a>
+          </div>
+        </div>
+        <div class="footer">
+          <div class="nav">
+            <a class="nav-item active" href="home.html">
+              <span class="icon">🏠</span>
+              HOME
+            </a>
+            <a class="nav-item" href="history.html">
+              <span class="icon">⏱</span>
+              HISTORY
+            </a>
+            <a class="nav-center" href="explore.html"><span>🗺</span></a>
+            <a class="nav-item" href="insights-main.html">
+              <span class="icon">📈</span>
+              INSIGHTS
+            </a>
+            <a class="nav-item" href="profile.html">
+              <span class="icon">👤</span>
+              PROFILE
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
